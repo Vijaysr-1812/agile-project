@@ -1,4 +1,5 @@
 # React + Vite
+IN  THIS I HAVE CREATED THE FRONTEND FOR THE HOME PAGE,ABOUT US AND THE BOOKING PAGES
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
