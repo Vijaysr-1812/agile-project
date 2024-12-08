@@ -6,6 +6,7 @@ import FeatureSection from "./components/FeatureSection";
 import Pricing from "./components/Pricing"; 
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
+import PaymentSection from "./components/Payment";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/" element={<HeroSection />} />
           <Route path="/about-us" element={<FeatureSection />} />
           <Route path="/pricing" element={<Pricing />} />
+          <Route path="/payment" element={<PaymentSection />} />
         </Routes>
       </div>
     </Router>

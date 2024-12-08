@@ -1,4 +1,5 @@
 import video2 from "../assets/video2.mp4"
+import PaymentSection from "./Payment"
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
@@ -14,8 +15,8 @@ const HeroSection = () => {
             BOOK YOUR SLOT
          </a>
          
-         <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md">
-            CHECK YOUR SLOT
+         <a href="/payment" className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md">
+            PAYMENT
          </a>
         </div>
         <div className="flex mt-10 justify-center">
